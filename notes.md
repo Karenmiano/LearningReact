@@ -11,3 +11,5 @@ Modern apps => UI tightly coupled with Logic = Invent JSX
 Props are read only because any change to the object will cause a change globally and could lead to side effects.
 
 Functions in react are meant to be pure.
+
+State - data that a component can hold over time, necessary for information that it needs to remember throughout the app's lifecycle. Keeps the data in sync with the UI.
