@@ -10,3 +10,4 @@ Follow these steps to get the project up and running on your local machine:
 2. **Navigate to project directory**
 3. **Run `npm install` to install the dependencies**
 4. **Start the app with `npm start`**
+5. **Enjoy!**
