@@ -1,3 +1,6 @@
+const result = await example();
+console.log(result);
+
 function getWeatherIcon(wmoCode) {
   const icons = new Map([
     [[0], "☀️"],
@@ -54,4 +57,8 @@ async function getWeather(location) {
   } catch (err) {
     console.err(err);
   }
+}
+
+async function example() {
+  return 42;
 }
