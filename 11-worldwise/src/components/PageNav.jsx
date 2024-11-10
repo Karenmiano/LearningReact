@@ -3,8 +3,6 @@ import styles from "./PageNav.module.css";
 import Logo from "./Logo";
 
 function PageNav() {
-  console.log(styles);
-
   return (
     <nav className={styles.nav}>
       <Logo />
