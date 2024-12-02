@@ -1,0 +1,1 @@
+- This repository contains projects done while taking Jonas Schmedtmann's Ultimate React Course.
