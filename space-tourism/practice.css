@@ -1,0 +1,33 @@
+/* Default styles for all screens */
+.container {
+  background-color: lightblue;
+  padding: 20px;
+}
+
+/* Styles for screens that are at least 20em wide */
+@media (min-width: 20em) {
+  .container {
+    background-color: lightgreen;
+  }
+}
+
+/* Styles for screens that are at least 64em wide */
+@media (min-width: 64em) {
+  .container {
+    background-color: lightcoral;
+  }
+}
+
+/* Styles for screens that are at least 90em wide */
+@media (min-width: 90em) {
+  .container {
+    background-color: lightgoldenrodyellow;
+  }
+}
+
+/* Styles for screens that are at least 120em wide */
+@media (min-width: 120em) {
+  .container {
+    background-color: lightgray;
+  }
+}

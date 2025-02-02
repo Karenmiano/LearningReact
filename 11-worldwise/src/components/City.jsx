@@ -1,4 +1,4 @@
-import { useEffect, useRef } from "react";
+import { useEffect } from "react";
 import { useParams } from "react-router-dom";
 import styles from "./City.module.css";
 import Spinner from "./Spinner";
@@ -16,12 +16,9 @@ const formatDate = (date) =>
 function City() {
   const { id } = useParams();
   const { currentCity, getCity, isLoading } = useCities();
-  const countRuns = useRef(0);
 
   useEffect(
     function () {
-      countRuns.current += 1;
-      console.log(`The effect ran ${countRuns.current} times.`);
       getCity(id);
     },
     [id, getCity]

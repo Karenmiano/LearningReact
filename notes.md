@@ -13,3 +13,15 @@ Props are read only because any change to the object will cause a change globall
 Functions in react are meant to be pure.
 
 State - data that a component can hold over time, necessary for information that it needs to remember throughout the app's lifecycle. Keeps the data in sync with the UI.
+
+Tailwind SetUp
+
+- installation instructions on website.
+- install prettier tailwind extension.
+
+Eslint with vite setup
+npm install --save-dev vite-plugin-eslint eslint-config-react-app eslint
+text-align: center;
+text-align: center;
+75gMUjnAbo0QQ28y
+https://github.com/Karenmiano/LearningReact
